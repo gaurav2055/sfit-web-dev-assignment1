@@ -1,0 +1,131 @@
+body{
+    background-color: #fafafa
+}
+
+.container{
+    padding-top: 50px;
+    padding-left: 40px
+}
+
+#mobile {
+    padding-top: 
+}
+
+#mobile img{
+    width: 400px;
+    float: right;
+}
+
+#form1{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    margin-top: 5%;
+}
+
+#insta {
+    width: 200px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#form1 input{
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+}
+
+.btn {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+label {
+    color: gray;
+    margin-bottom: 20px
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#forgotpass{
+    color: black;
+    font-size: 12px;
+}
+
+#forgotpass:hover{
+    color: black;
+    text-decoration: none;
+}
+
+#fb:hover{
+    color: black;
+    text-decoration: none;
+}
+
+#form2{
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+}
+
+#Signup:hover{
+    text-decoration: none;
+}
+
+#app {
+    margin: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+.left{
+    float: left
+}
+.app{
+    margin-left: 30px;
+
+    height: 40px;
+}
+.play{
+    margin-left: 10px;
+
+    height: 40px;
+}
+
+.marginleft {
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 2%
+}
+
+.bottom{
+    margin-bottom: 50px;
+}
+
+.bottomP{
+    padding-bottom: 50px;
+}
+
+a{
+    color: midnightblue;
+}
+
+@media screen and (max-width: 900px){
+    body{
+        background-color: white;
+    }
+    #mobile{
+        display: none;
+    }
+    
+    #form1{
+        border: none;
+    }
+    
+    #form2{
+        border: none;
+    }
+    
+}
